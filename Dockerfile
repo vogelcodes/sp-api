@@ -1,10 +1,10 @@
 FROM node:14.15.4-slim
 
+COPY . .
+
 USER node
 
 WORKDIR /home/node/app
-
-COPY . .
 
 EXPOSE 3000
 
