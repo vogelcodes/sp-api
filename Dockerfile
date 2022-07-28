@@ -1,8 +1,8 @@
 FROM node:14.15.4-slim
 
-COPY . /home/node/app
+COPY . /app
 
-WORKDIR /home/node/app
+WORKDIR /app
 
 EXPOSE 3000
 
