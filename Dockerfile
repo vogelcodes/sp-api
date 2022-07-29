@@ -6,7 +6,7 @@ COPY . /home/node/app
 
 WORKDIR /home/node/app
 
-# RUN chmod -R 777 /home/node
+RUN chmod -R 777 /home/node
 
 EXPOSE 3000
 USER node
